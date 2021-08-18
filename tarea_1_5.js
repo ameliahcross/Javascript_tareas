@@ -14,4 +14,23 @@
 const prompt = require('prompt');
 prompt.start();
 
-var descuento15, descuento10, 
+var x = ['precio', 'docenas', 'montoCompra', 'montoApagar','descuento', 'docenasRegaladas']
+
+var docenas = 4
+var precio = 200
+var descuento = precio * 0.15
+
+
+console.log('El monto de la compra es de: ' , montoCompra = docenas * precio)
+
+if (docenas > 3) {
+    console.log('Al comprar más de 3 docenas obtienes un descuento de: ', precio * 0.15, 'dólares.' , 'Precio con descuento: ', precio - descuento,  'y docenas de obsequio: ', docenas - 3 )
+} 
+
+else if (docenas < 3) {
+    console.log('Con un descuento de: ' , descuento = 0.10 * precio)
+}
+
+else {
+    console.log(descuento = 0.10 * montoCompra, 'Sin obsequio')
+}
